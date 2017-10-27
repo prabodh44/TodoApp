@@ -19,8 +19,17 @@ $('document').ready(function(){
        close[i].onclick = function(){
            var div = this.parentElement;
            div.style.display = "none";
-           
        };
     }
-    console.log(close.length);
+
+    //add the checked symbol when
+    //clicking the list item
+    var list = document.querySelector('ul');
+    list.addEventListener('click', function(event){
+        if(event.target.tagName === "LI"){
+            event.target.classList.toggle('checked');
+        }
+    },false);
+
+
 });
