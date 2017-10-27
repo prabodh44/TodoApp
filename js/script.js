@@ -22,7 +22,7 @@ $('document').ready(function(){
            var div = this.parentElement;
            div.style.display = "none";
        };
-    }
+    } 
 
     //add the checked symbol when
     //clicking the list item
