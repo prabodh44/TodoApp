@@ -1,0 +1,8 @@
+input#todoText{
+    padding: 30px;
+    font-size: 1.9em;
+}
+ul li:nth-child(odd){
+    background-color: rgba(192, 192, 192, 0.685);
+}
+
